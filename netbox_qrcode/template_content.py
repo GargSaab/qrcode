@@ -14,7 +14,6 @@ class QRCode(PluginTemplateExtension):
         config = self.context['config']
         obj = self.context['object']
         request = self.context['request']
-        print(obj)
 	url = obj
         # get object settings
         obj_cfg = config.get(self.model.replace('dcim.', ''))
